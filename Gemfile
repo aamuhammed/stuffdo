@@ -44,9 +44,8 @@ group :development do
   gem 'sqlite3'
 end
 
-group :production do 
-	gem 'rails_12factor'
-	gem 'pg'
+group :production do
+  gem 'pg', '0.18.4'
 end
 
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
